@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="This is the forms exercise">
+   <meta name="author" content="Dylan Bright">
+    <title>Forms Exercise</title>
+</head>
+<body>
+<form>
+<fieldset>
+<legend>Customer Experience survey</legend>
+<label for="storenumber" id="storeNumber"</label>
+    <select name="storeNumber" id="storeNumber">
+    <option value="3109"></option>
+    <option value="2421"></option>
+    <option value="5357"></option>
+</select>
+ <fieldset>
+    <legend>When you Visted:</legend>
+    <div>
+    <label for="DateVisted">DateVisted</label>
+    <input type="date" name="DateVisited" id="dateVisited" 
+    value="2023-03-01">
+     </div>
+    
+     <div>
+     <label for="timevisted">Time</label>
+     <input type="time" name="TimeVisited" id="TimeVisited"
+     value="12:30">
+     </div>
+
+</fieldset>
+<label for="fullName">fullName</label>
+<input type="text" name="fullName" id="fullName">
+<br>
+<label for="email">email</label>
+<input type="email" name="email" id="email"
+placeholder="Email">
+</fieldset>
+   <fieldset>
+<legend>How would you rate your level of satisfaction with your visit?</legend>
+    <input type="radio" name="radioLink" id="one">
+    <label for="one">Satisfied</label>
+    <br>
+    <input type="radio" name="radioLink" id="one">
+    <label for="Two">Neither Satisfied Nor Dissatisfied</label>
+    <br>
+    <input type="radio" name="radioLink" id="one">
+    <label for="Three">Dissatisfied</label>
+</fieldset>
+    <label for="experience">Tell us about your experience</label>
+    <br>
+    <textarea name="experience" id="experience" cols="30" rows="10"></textarea>
+    <br>
+    <label for="Times">Times visited las month</label>
+    <br>
+    <input type="number" name="times " id="times">
+    <br>
+
+    <input type="checkbox" name="contact" id="contact">
+    <label for="contact">Please check the box if you would be willing to be contacted about your experience.</label>
+    <br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password">
+    <br>
+    <input type="submit">
+</form>
+
+
+    
+</body>
+</html>
